@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+    tools:context=".ChooseAction">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Otopark Randevu Sistemine Hoşgeldiniz..."
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toTopOf="@+id/idGirisYap6"
+             />
+
+        <Button
+            android:id="@+id/idGirisYap6"
+            android:layout_width="342dp"
+            android:layout_height="53dp"
+            android:background="@drawable/rectangle_button_shape"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="start"
+            android:text="Randevuya Başla"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            tools:ignore="OnClick" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    android:orientation="vertical"
+    tools:context=".TheEnd">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:text=" Boş bir park alanı seçiniz..."
+        android:textColor="@color/White"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="4dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/park1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="0dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:text="34 ASD 215"
+            android:textColor="#FFF9F9"
+            android:textSize="14sp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="0dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/park3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#25F800"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="0dp"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park4"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="4dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:text="23 ELZ 587"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/park5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="0dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park6"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#25F800"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="0dp"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park7"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="0dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:text="21 YKS 875"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park8"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#25F800"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="4dp"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/park9"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="0dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:text="33 DCH 598"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park10"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#25F800"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="13dp"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+        <Button
+            android:id="@+id/park11"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="0dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:text="72 SFH 596"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/park12"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#25F800"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="4dp"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/park13"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="13dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/park14"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="13dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:text="48 AGT 859"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/park15"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#25F800"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="13dp"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/park16"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="4dp"
+            android:background="#25F800"
+            android:onClick="buttonClicks"
+            android:textColor="#FFF9F9">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

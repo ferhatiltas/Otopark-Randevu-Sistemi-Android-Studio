@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">myCarPark</string>
+    <string name="ilsec">Bir İlçe Seçiniz </string>
+    <string-array name="iller">
+        <item>Merkez</item>
+        <item>Ağın</item>
+        <item>Alacakaya</item>
+        <item>Arıcak</item>
+        <item>Karakoçan</item>
+        <item>Kovancılar</item>
+        <item>Baskil</item>
+        <item>Keban</item>
+        <item>Palu</item>
+        <item>Sivrice</item>
+    </string-array>
+    <string-array name="il">
+        <item>Elazığ</item>
+    </string-array>
+    <string-array name="fiyatlar">
+        <item>1-2 Saat 5 TL</item>
+        <item>2-3 Saat 10 TL</item>
+        <item>3-4 Saat 15 TL</item>
+        <item>4-5 Saat 20 TL</item>
+        <item>5-6 Saat 25 TL</item>
+        <item>Tüm Gün 50 TL</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

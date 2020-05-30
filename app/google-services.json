@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302336893838",
+    "firebase_url": "https://mycarpark-8a492.firebaseio.com",
+    "project_id": "mycarpark-8a492",
+    "storage_bucket": "mycarpark-8a492.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302336893838:android:8d7ac3e82606f7220efadf",
+        "android_client_info": {
+          "package_name": "com.ferhatiltas.mycarpark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302336893838-t3k01jfev99qg5j8vktpum72u858k43f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferhatiltas.mycarpark",
+            "certificate_hash": "7b90bb999bcb0b8af7f6a39dd27cf2fcd7562b88"
+          }
+        },
+        {
+          "client_id": "302336893838-b6gmcn9pst169760pnlo0cgqfj6thjse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdciHvnRvY_RDD_x82f4V3KPJYcW_J9vU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302336893838-b6gmcn9pst169760pnlo0cgqfj6thjse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

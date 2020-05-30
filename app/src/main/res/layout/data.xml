@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aandroid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+android:padding="15dp"
+    android:background="@color/White">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/plaka"
+            android:layout_width="299dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="150dp"
+            android:hint="Plaka:"
+            android:onClick="clickPlaka"
+            android:textColor="#000000"
+            tools:ignore="UnknownId" />
+
+        <EditText
+            android:id="@+id/renk"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/plaka"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="4dp"
+            android:hint="Araç rengi:"
+            android:onClick="clickRenk"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/Rtarih"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/renk"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="4dp"
+            android:hint="Saat aralığı:"
+            android:onClick="clickSaat"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/Rsaat"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Rtarih"
+            android:layout_marginStart="54dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="4dp"
+            android:hint="Randevu Tarihi:"
+            android:onClick="clickTarih"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Rgeri"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#0097A7"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="54dp"
+            android:onClick="clickGoruntule"
+            android:text="Geri"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/Rkaydet"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="#0097A7"
+            android:onClick="clickKaydet"
+            android:text="Kaydet"
+            android:textColor="#FFFFFF"
+            android:textIsSelectable="true"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

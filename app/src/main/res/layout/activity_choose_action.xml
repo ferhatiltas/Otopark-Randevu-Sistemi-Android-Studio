@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg"
+    tools:context=".StartAppointment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="395dp">
+
+        <Button
+            android:id="@+id/idGiris"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginRight="60dp"
+            android:background="@color/transparent"
+            android:onClick="chooseClicks"
+            android:text="Giriş Yap"
+
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick,UnknownId" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="368dp">
+
+        <Button
+            android:id="@+id/idKayit"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="280dp"
+            android:background="@color/transparent"
+            android:onClick="chooseClicks"
+            android:text="Kayıt Ol"
+
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            tools:ignore="OnClick,UnknownId" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
