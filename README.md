@@ -1,5 +1,5 @@
 # Otopark-Randevu-Sistemi-Android-Studio
-Android Studio İle Otopark Randevu Sistemi
+Android Studio IDE ile Java ve Firebase ile Otopark Randevu Sistemi yaptım.
 
 Projenin çalışması için;
 
