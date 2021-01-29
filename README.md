@@ -15,3 +15,8 @@ Not: Projenin çalışma anının videosu (Otopark Randevu Sistemi Uygulama Vide
 
 Not 2 : Projenin kod kısmının videosu (Otopark Randevu Sistemi Kod Video) adlı klasörde yer almaktadır.
 
+<p align="center">
+  <img width="1024" height="500" src="https://github.com/ferhatiltas/Otopark-Randevu-Sistemi-Android-Studio/blob/master/otopark.png?raw=true">
+</p>
+
+
